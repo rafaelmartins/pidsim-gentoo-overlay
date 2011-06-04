@@ -16,7 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="=sci-mathematics/pidsim-models-9999
+DEPEND="dev-python/setuptools
+	=sci-mathematics/pidsim-models-9999
 	=sci-mathematics/pidsim-9999
 	>=dev-python/flask-0.6.1
 	dev-python/flask-babel

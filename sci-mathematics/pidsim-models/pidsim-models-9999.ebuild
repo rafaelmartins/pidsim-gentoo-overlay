@@ -16,5 +16,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="=sci-mathematics/pidsim-9999"
+DEPEND="dev-python/setuptools
+	=sci-mathematics/pidsim-9999"
 RDEPEND="${DEPEND}"
