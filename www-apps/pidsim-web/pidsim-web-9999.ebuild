@@ -23,3 +23,8 @@ DEPEND="dev-python/setuptools
 	dev-python/flask-babel
 	dev-python/matplotlib"
 RDEPEND="${DEPEND}"
+
+src_compile(){
+	distutils_src_compile
+	$(PYTHON) setup.py compile_catalog
+}
