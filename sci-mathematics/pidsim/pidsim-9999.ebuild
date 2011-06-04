@@ -14,21 +14,7 @@ EHG_REPO_URI="http://hg.rafaelmartins.eng.br/pidsim/core/"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc"
+IUSE=""
 
-DEPEND="doc? ( dev-python/sphinx )"
+DEPEND=""
 RDEPEND=""
-
-src_compile() {
-	distutils_src_compile
-	if use doc; then
-		emake -C doc html || die 'failed to build doc.'
-	fi
-}
-
-src_install() {
-	distutils_src_install
-	if use doc; then
-		dohtml -r doc/_build/html/* || die 'failed to install doc.'
-	fi
-}
