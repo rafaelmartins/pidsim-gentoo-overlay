@@ -4,12 +4,13 @@
 
 EAPI=3
 
-inherit distutils mercurial
+inherit distutils git-r3
 
 DESCRIPTION="PID Controllers simulator (web interface)"
-HOMEPAGE="http://pidsim.org/"
+HOMEPAGE="https://github.com/rafaelmartins/pidsim-web"
 SRC_URI=""
-EHG_REPO_URI="http://hg.rafaelmartins.eng.br/pidsim/web/"
+EGIT_REPO_URI="git://github.com/rafaelmartins/pidsim-web.git
+	https://github.com/rafaelmartins/pidsim-web.git"
 
 LICENSE="GPL-2"
 SLOT="0"

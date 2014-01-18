@@ -4,12 +4,13 @@
 
 EAPI=3
 
-inherit distutils mercurial
+inherit distutils git-r3
 
 DESCRIPTION="A set of reference models for PIDSIM"
-HOMEPAGE="http://pidsim.org/"
+HOMEPAGE="https://github.com/rafaelmartins/pidsim-models"
 SRC_URI=""
-EHG_REPO_URI="http://hg.rafaelmartins.eng.br/pidsim/models/"
+EGIT_REPO_URI="git://github.com/rafaelmartins/pidsim-models.git
+	https://github.com/rafaelmartins/pidsim-models.git"
 
 LICENSE="GPL-2"
 SLOT="0"
