@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>pidsim</name>
+        <description>pidsim's overlay</description>
+        <homepage>https://github.com/rafaelmartins/pidsim-gentoo-overlay</homepage>
+        <owner type="person">
+            <email>rafael@rafaelmartins.eng.br</email>
+            <name>Rafael G. Martins</name>
+        </owner>
+        <source type="git">https://github.com/rafaelmartins/pidsim-gentoo-overlay.git</source>
+    </repo>
+</repositories>
